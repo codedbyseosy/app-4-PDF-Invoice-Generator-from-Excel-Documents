@@ -3,6 +3,7 @@ import glob
 from fpdf import FPDF
 from pathlib import Path
 
+#glob is used to return all file paths that match a specific pattern
 filepaths = glob.glob("/Users/eseoseodion/Documents/Python 2023/Visual Code/UDEMY_PROJECTS/app-4/Invoices/*.xlsx") #get every file that ends in .xlsx
 
 for filepath in filepaths:
